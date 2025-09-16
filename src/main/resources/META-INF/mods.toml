@@ -1,40 +1,39 @@
 modLoader="javafml"
-loaderVersion="[1,)"
-license="All Rights Reserved"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 
 [[mods]]
-modId="ceetweaks"
-version="1.0.0"
-displayName="CEE Tweaks"
-authors="YourNameHere, OtherNameHere"
-description='''Example mod description.
-Newline characters can be used and will be replaced properly.'''
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''${mod_description}'''
 
 [[mixins]]
-config="ceetweaks.mixins.json"
+config="${mod_id}.mixins.json"
 
-[[dependencies.ceetweaks]]
+[[dependencies.${mod_id}]]
     modId="neoforge"
-    mandatory=true
-    versionRange="[21.1.174,)"
+    type="required"
+    versionRange="${neo_version_range}"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.ceetweaks]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
-    mandatory=true
-    versionRange="[1.21.1,1.22)"
+    type="required"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.ceetweaks]]
+[[dependencies.${mod_id}]]
     modId="electroenergetics"
     mandatory=true
     versionRange="[0,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.ceetweaks]]
+[[dependencies.${mod_id}]]
     modId="immersiveengineering"
     mandatory=false
     versionRange="[0,)"
