@@ -1,12 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "immersiveengineering"
-    }
-  ],
   "key": {
     "k": {
       "item": "immersiveengineering:hemp_fabric"
