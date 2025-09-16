@@ -161,19 +161,6 @@ idea {
         downloadJavadoc = true
     }
 }
-// Example configuration to allow publishing using the maven-publish plugin
-publishing {
-    publications {
-        register('mavenJava', MavenPublication) {
-            from components.java
-        }
-    }
-    repositories {
-        maven {
-            url "file://${project.projectDir}/repo"
-        }
-    }
-}
 
 // IDEA no longer automatically downloads sources/javadoc jars for dependencies, so we need to explicitly enable the behavior.
 idea {
