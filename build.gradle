@@ -161,7 +161,6 @@ idea {
         downloadJavadoc = true
     }
 }
-}
 // Example configuration to allow publishing using the maven-publish plugin
 publishing {
     publications {
