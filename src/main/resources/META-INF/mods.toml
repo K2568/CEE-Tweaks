@@ -23,7 +23,7 @@ config="ceetweaks.mixins.json"
 [[dependencies.ceetweaks]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.21.1,1.22)"
+    versionRange="[1.21.1,)"
     ordering="NONE"
     side="BOTH"
 
