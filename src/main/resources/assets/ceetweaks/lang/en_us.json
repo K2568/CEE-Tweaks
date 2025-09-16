@@ -1,0 +1,13 @@
+{
+  "itemGroup.ceetweaks": "Example Mod Tab",
+  "block.ceetweaks.example_block": "Example Block",
+  "item.ceetweaks.example_item": "Example Item",
+
+  "ceetweaks.configuration.title": "CEE Tweaks Configs",
+  "ceetweaks.configuration.section.ceetweaks.common.toml": "CEE Tweaks Configs",
+  "ceetweaks.configuration.section.ceetweaks.common.toml.title": "CEE Tweaks Configs",
+  "ceetweaks.configuration.items": "Item List",
+  "ceetweaks.configuration.logDirtBlock": "Log Dirt Block",
+  "ceetweaks.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ceetweaks.configuration.magicNumber": "Magic Number"
+}
